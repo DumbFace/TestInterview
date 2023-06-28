@@ -10,6 +10,6 @@ namespace CMS.Core.Teachers
     public class TeacherViewModel
     {
         public string FullName { get; set; }
-        public ICollection<StudentTeacher> StudentTeachers { get; set; }
+        public List<int> IdStudents { get; set; } = new List<int>();
     }
 }

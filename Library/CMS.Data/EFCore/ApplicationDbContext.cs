@@ -39,11 +39,12 @@ namespace CMS.Data.EFCore
                         .HasForeignKey(s => s.TeacherId);
 
             // modelBuilder.Entity<Student>()
-            //             .HasOne<Address>(s => s.Address)
-            //             .WithOne(s => s.Student)
-            //             .HasForeignKey<Student>(s => s.AddressId);
+            //             .HasMany(s => s.Teachers)
+            //             .WithMany(s => s.Students);
 
-
+            // modelBuilder.Entity<Teacher>()
+            //             .HasMany(s => s.Students)
+            //             .WithMany(s => s.Teachers);
         }
 
         public DbSet<Student> Students { get; set; }

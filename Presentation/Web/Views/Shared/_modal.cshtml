@@ -1,5 +1,5 @@
-<div class="modal fade" id="modelId">
-    <div class="modal-dialog" role="document">
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title">Add</h5>
@@ -9,6 +9,21 @@
             </div>
             <div class="modal-body" id="modalBody">
             </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <input type="submit" onclick="Submit(event)" class="btn btn-success" value="Submit">
+            </div>
         </div>
     </div>
 </div>
+
+
+
+<script>
+    async function Submit(e) {
+        var modal = e.currentTarget.closest('#myModal');
+        var form = $(modal.querySelector('form'));
+
+        form.submit();
+    }
+</script>

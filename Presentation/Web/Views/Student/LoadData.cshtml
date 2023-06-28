@@ -1,0 +1,28 @@
+@model IEnumerable<StudentViewModel>
+
+<thead>
+    <tr>
+        <th>Full Name</th>
+        <th>Date Of Birh</th>
+        <th>Teacher</th>
+        <th></th>
+
+    </tr>
+</thead>
+<tbody>
+    @foreach (var user in Model)
+    {
+        <tr>
+            <td>@user.FullName</td>
+            <td>@user.DoB</td>
+            <td>
+                @foreach (string teacher in user.lstTeacherFullName)
+                {
+                    <p>@teacher</p>
+                }
+            </td>
+            <td>
+            </td>
+        </tr>
+    }
+</tbody>

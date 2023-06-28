@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Lqk+t3duLz4qS/Jj2X1qVQeNmdMQDxQ9qtkzzTRFTwY=",
+  "Hash": "iYK4CTlC7FHQtigPSzK5NEnqqvg6YrreyHve0iWV8OQ=",
   "Source": "Web",
   "BasePath": "_content/Web",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "F:\\Repo\\TestInterview\\Presentation\\Web\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Web.bundle.scp.css"
     },
     {
+      "Identity": "F:\\Repo\\TestInterview\\Presentation\\Web\\wwwroot\\css\\fastselect.css",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Repo\\TestInterview\\Presentation\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "css/fastselect.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\fastselect.css"
+    },
+    {
       "Identity": "F:\\Repo\\TestInterview\\Presentation\\Web\\wwwroot\\css\\site.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "F:\\Repo\\TestInterview\\Presentation\\Web\\wwwroot\\js\\fastselect.standalone.js",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Repo\\TestInterview\\Presentation\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "js/fastselect.standalone.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\fastselect.standalone.js"
     },
     {
       "Identity": "F:\\Repo\\TestInterview\\Presentation\\Web\\wwwroot\\js\\site.js",

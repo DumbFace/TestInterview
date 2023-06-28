@@ -1,0 +1,31 @@
+@model IEnumerable<TeacherInputTags>
+
+<div class="container">
+    <form asp-controller="Student" asp-action="Create" method="post" class="form-floating">
+        <div class="row">
+            <div class="col-sm-10">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="lstViewModel[0].fullName"
+                        name="lstViewModel[0].FullName">
+                    <label for="floatingInput">Full Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="date" class="form-control" id="lstViewModel[0].dOB" name="lstViewModel[0].dOB">
+                    <label for="floatingInput">Date Of Birth</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <select class="multipleSelect" id="multipleSelect" multiple name="lstViewModel[0].idTeachers">
+                        @foreach (var item in Model)
+                        {
+                            <option value="@item.Value">@item.Name</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <input type="button" class="btn btn-success" onclick="Add(event)" value="Add">
+            </div>
+        </div>
+    </form>
+</div>
+

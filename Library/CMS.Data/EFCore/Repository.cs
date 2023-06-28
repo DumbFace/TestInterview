@@ -17,11 +17,15 @@ namespace CMS.Data.EFCore
 
         public Repository()
         {
+            var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
+            optionsBuilder.UseSqlServer("Server=.\\EXPRESSKHANG;Database=InterviewDB;Trusted_Connection=True;TrustServerCertificate=True");
+
+            this._context = new ApplicationDbContext(optionsBuilder.Options);
             table = _context.Set<T>();
         }
-        public Repository(ApplicationDbContext _context)
+        public Repository(ApplicationDbContext context)
         {
-            this._context = _context;
+            this._context = context;
             table = _context.Set<T>();
         }
         public IEnumerable<T> GetAll()
@@ -77,6 +81,8 @@ namespace CMS.Data.EFCore
             }
             return data;
         }
+
+
 
         // public IPagedList<TResult> Paging<TResult>(Expression<Func<T, bool>> whereFunc = null, Expression<Func<T, TResult>> projection = null, int page = 1, int pagesize = 10)
         // {

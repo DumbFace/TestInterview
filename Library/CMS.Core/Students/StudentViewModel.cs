@@ -9,7 +9,7 @@ namespace CMS.Core.Students
     {
         public string FullName { get; set; }
         public DateTime DoB { get; set; }
-        // public int IdTeacher { get; set; }
-        public string IdTeacher { get; set; }
+        public List<int> idTeachers { get; set; } = new List<int>();
+        public List<string> lstTeacherFullName { get; set; }
     }
 }

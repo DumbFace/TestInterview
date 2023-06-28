@@ -1,0 +1,22 @@
+@model IEnumerable<TeacherOutputViewModel>
+
+
+
+
+@if (Model.Count() > 0)
+{
+    @foreach (TeacherOutputViewModel teacher in Model)
+    {
+        if (teacher.Students.Count > 0)
+        {
+            foreach (StudentOutputViewModel student in teacher.Students)
+            {
+                <h3>@teacher.FullName: @student.FullName - @student.Age</h3>
+            }
+        }
+        else
+        {
+            <h3>@teacher.FullName</h3>
+        }
+    }
+}

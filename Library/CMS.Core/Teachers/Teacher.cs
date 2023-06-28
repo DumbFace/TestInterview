@@ -13,11 +13,5 @@ namespace CMS.Core.Teachers
         public int TeacherId { get; set; }
         public string FullName { get; set; }
         public ICollection<StudentTeacher> StudentTeachers { get; set; }
-
-
-        public ICollection<Student> Students { get; set; }
-        // [NotMapped]
-        // public List<Student> GetStudents =>
-        //      StudentTeachers?.Select(st => st.Student).ToList();
     }
 }

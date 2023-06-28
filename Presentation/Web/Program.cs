@@ -1,15 +1,22 @@
 using CMS.Data.EFCore;
 using CMS.Services.StudentServices;
+using CMS.Services.StudentTeacherServices;
 using CMS.Services.TeacherServices;
 using Factory;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+       options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectString")));
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 builder.Services.AddScoped<IStudentService, StudentService>();
 builder.Services.AddScoped<ITeacherService, TeacherService>();
+builder.Services.AddScoped<IStudentTeacherService, StudentTeacherService>();
+
 builder.Services.AddScoped<IContentFactory, ContentFactory>();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 

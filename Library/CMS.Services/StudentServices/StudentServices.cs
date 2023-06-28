@@ -7,7 +7,7 @@ using Library.CMS.Core.Students;
 
 namespace CMS.Services.StudentServices
 {
-    public class StudentServices : Repository<Student> , IStudentServices
+    public class StudentService : Repository<Student> , IStudentService
     {
         
     }

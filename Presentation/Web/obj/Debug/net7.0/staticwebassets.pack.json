@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\Web.bundle.scp.css"
     },
     {
+      "Id": "F:\\Repo\\TestInterview\\Presentation\\Web\\wwwroot\\css\\fastselect.css",
+      "PackagePath": "staticwebassets\\css\\fastselect.css"
+    },
+    {
       "Id": "F:\\Repo\\TestInterview\\Presentation\\Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "F:\\Repo\\TestInterview\\Presentation\\Web\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\Repo\\TestInterview\\Presentation\\Web\\wwwroot\\js\\fastselect.standalone.js",
+      "PackagePath": "staticwebassets\\js\\fastselect.standalone.js"
     },
     {
       "Id": "F:\\Repo\\TestInterview\\Presentation\\Web\\wwwroot\\js\\site.js",
