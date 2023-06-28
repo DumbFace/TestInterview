@@ -1,0 +1,14 @@
+F:\Repo\TestInterview\Library\CMS.Core\bin\Debug\net7.0\CMS.Core.deps.json
+F:\Repo\TestInterview\Library\CMS.Core\bin\Debug\net7.0\CMS.Core.runtimeconfig.json
+F:\Repo\TestInterview\Library\CMS.Core\bin\Debug\net7.0\CMS.Core.dll
+F:\Repo\TestInterview\Library\CMS.Core\bin\Debug\net7.0\CMS.Core.pdb
+F:\Repo\TestInterview\Library\CMS.Core\obj\Debug\net7.0\CMS.Core.csproj.AssemblyReference.cache
+F:\Repo\TestInterview\Library\CMS.Core\obj\Debug\net7.0\CMS.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Repo\TestInterview\Library\CMS.Core\obj\Debug\net7.0\CMS.Core.AssemblyInfoInputs.cache
+F:\Repo\TestInterview\Library\CMS.Core\obj\Debug\net7.0\CMS.Core.AssemblyInfo.cs
+F:\Repo\TestInterview\Library\CMS.Core\obj\Debug\net7.0\CMS.Core.csproj.CoreCompileInputs.cache
+F:\Repo\TestInterview\Library\CMS.Core\obj\Debug\net7.0\CMS.Core.dll
+F:\Repo\TestInterview\Library\CMS.Core\obj\Debug\net7.0\refint\CMS.Core.dll
+F:\Repo\TestInterview\Library\CMS.Core\obj\Debug\net7.0\CMS.Core.pdb
+F:\Repo\TestInterview\Library\CMS.Core\obj\Debug\net7.0\CMS.Core.genruntimeconfig.cache
+F:\Repo\TestInterview\Library\CMS.Core\obj\Debug\net7.0\ref\CMS.Core.dll

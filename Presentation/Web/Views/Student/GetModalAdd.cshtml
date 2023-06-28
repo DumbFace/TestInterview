@@ -1,0 +1,47 @@
+<div class="container">
+    <form action="" method="post" class="form-floating">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="fullName" name="FullName">
+                    <label for="floatingInput">Full Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="datetime" class="form-control" id="dOB" name="dOB">
+                    <label for="floatingInput">Date Of Birt</label>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <select class="multipleSelect" multiple name="language">
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Belgium">Belgium</option>
+                </select>
+            </div>
+            <div class="col-sm-2">
+                <input type="button" class="btn btn-success" onclick="Add(event)" value="Add">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="fullName" name="FullName">
+                    <label for="floatingInput">Full Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="datetime" class="form-control" id="dOB" name="dOB">
+                    <label for="floatingInput">Date Of Birt</label>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <select class="multipleSelect" multiple name="teachers">
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Belgium">Belgium</option>
+                </select>
+            </div>
+            <div class="col-sm-2">
+                <input type="button" value="Delete" onclick="Delete(event)" class="btn btn-warning">
+            </div>
+        </div>
+    </form>
+    <input type="submit" class="btn btn-success" value="Submit">
+</div>

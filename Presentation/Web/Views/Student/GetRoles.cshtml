@@ -1,0 +1,40 @@
+@model IEnumerable<StudentViewModel>
+
+<thead>
+    <tr>
+        <th>Full Name</th>
+        <th>Date Of Birh</th>
+        <th>Teacher</th>
+        <th></th>
+
+    </tr>
+</thead>
+<tbody>
+    @foreach (var user in Model)
+    {
+        <tr>
+            <td>@user.FullName</td>
+            <td>@user.DoB</td>
+            <td>
+                @foreach (string teacher in user.Teacher)
+                {
+                    <p>@teacher</p>
+                }
+            </td>
+            <td>
+                @* <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+            data-toggle="dropdown">
+            Actions
+            </a>
+
+            <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#" onclick="Edit(event,'@user.Name')">Edit</a></li>
+            <li><a class="dropdown-item" href="#" onclick="Delete(event,'@user.Name')">Delete</a></li>
+            <li><a class="dropdown-item" href="#" onclick="AddPermission('@user.Name')">Permission</a></li>
+            </ul>
+            </div> *@
+            </td>
+        </tr>
+    }
+</tbody>

@@ -1,0 +1,17 @@
+F:\Repo\TestInterview\Presentation\Factory\bin\Debug\net7.0\Factory.deps.json
+F:\Repo\TestInterview\Presentation\Factory\bin\Debug\net7.0\Factory.dll
+F:\Repo\TestInterview\Presentation\Factory\bin\Debug\net7.0\Factory.pdb
+F:\Repo\TestInterview\Presentation\Factory\bin\Debug\net7.0\CMS.Core.dll
+F:\Repo\TestInterview\Presentation\Factory\bin\Debug\net7.0\CMS.Data.dll
+F:\Repo\TestInterview\Presentation\Factory\bin\Debug\net7.0\CMS.Core.pdb
+F:\Repo\TestInterview\Presentation\Factory\bin\Debug\net7.0\CMS.Data.pdb
+F:\Repo\TestInterview\Presentation\Factory\obj\Debug\net7.0\Factory.csproj.AssemblyReference.cache
+F:\Repo\TestInterview\Presentation\Factory\obj\Debug\net7.0\Factory.GeneratedMSBuildEditorConfig.editorconfig
+F:\Repo\TestInterview\Presentation\Factory\obj\Debug\net7.0\Factory.AssemblyInfoInputs.cache
+F:\Repo\TestInterview\Presentation\Factory\obj\Debug\net7.0\Factory.AssemblyInfo.cs
+F:\Repo\TestInterview\Presentation\Factory\obj\Debug\net7.0\Factory.csproj.CoreCompileInputs.cache
+F:\Repo\TestInterview\Presentation\Factory\obj\Debug\net7.0\Factory.csproj.CopyComplete
+F:\Repo\TestInterview\Presentation\Factory\obj\Debug\net7.0\Factory.dll
+F:\Repo\TestInterview\Presentation\Factory\obj\Debug\net7.0\refint\Factory.dll
+F:\Repo\TestInterview\Presentation\Factory\obj\Debug\net7.0\Factory.pdb
+F:\Repo\TestInterview\Presentation\Factory\obj\Debug\net7.0\ref\Factory.dll
