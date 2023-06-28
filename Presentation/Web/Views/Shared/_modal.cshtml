@@ -20,10 +20,9 @@
 
 
 <script>
-    async function Submit(e) {
+    function Submit(e) {
         var modal = e.currentTarget.closest('#myModal');
         var form = $(modal.querySelector('form'));
-
         form.submit();
     }
 </script>

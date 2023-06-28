@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Web
 build_property.RootNamespace = Web
-build_property.ProjectDir = F:\Repo\TestInterview\Presentation\Web\
+build_property.ProjectDir = f:\Repo\TestInterview\Presentation\Web\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = F:\Repo\TestInterview\Presentation\Web
+build_property.MSBuildProjectDirectory = f:\Repo\TestInterview\Presentation\Web
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/Repo/TestInterview/Presentation/Web/Views/Home/Index.cshtml]
+[f:/Repo/TestInterview/Presentation/Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Repo/TestInterview/Presentation/Web/Views/Home/Privacy.cshtml]
+[f:/Repo/TestInterview/Presentation/Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Repo/TestInterview/Presentation/Web/Views/OutPutFE/Index.cshtml]
+[f:/Repo/TestInterview/Presentation/Web/Views/OutPutFE/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3V0UHV0RkVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Repo/TestInterview/Presentation/Web/Views/Shared/Error.cshtml]
+[f:/Repo/TestInterview/Presentation/Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Repo/TestInterview/Presentation/Web/Views/Shared/_modal.cshtml]
+[f:/Repo/TestInterview/Presentation/Web/Views/Shared/_modal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9tb2RhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Repo/TestInterview/Presentation/Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[f:/Repo/TestInterview/Presentation/Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Repo/TestInterview/Presentation/Web/Views/Student/GetModal.cshtml]
+[f:/Repo/TestInterview/Presentation/Web/Views/Student/GetModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxHZXRNb2RhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Repo/TestInterview/Presentation/Web/Views/Student/Index.cshtml]
+[f:/Repo/TestInterview/Presentation/Web/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Repo/TestInterview/Presentation/Web/Views/Student/LoadData.cshtml]
+[f:/Repo/TestInterview/Presentation/Web/Views/Student/LoadData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxMb2FkRGF0YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Repo/TestInterview/Presentation/Web/Views/Teacher/GetModal.cshtml]
+[f:/Repo/TestInterview/Presentation/Web/Views/Teacher/GetModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxHZXRNb2RhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Repo/TestInterview/Presentation/Web/Views/Teacher/Index.cshtml]
+[f:/Repo/TestInterview/Presentation/Web/Views/Teacher/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Repo/TestInterview/Presentation/Web/Views/_ViewImports.cshtml]
+[f:/Repo/TestInterview/Presentation/Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Repo/TestInterview/Presentation/Web/Views/_ViewStart.cshtml]
+[f:/Repo/TestInterview/Presentation/Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Repo/TestInterview/Presentation/Web/Views/Shared/_Layout.cshtml]
+[f:/Repo/TestInterview/Presentation/Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-lzldzk1rll

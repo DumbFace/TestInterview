@@ -41,8 +41,7 @@ namespace Web.Controllers
 
         public IActionResult GetModal()
         {
-            IEnumerable<TeacherInputTags> teacherInputTags = _contentFactory.GetTeacherInputTags();
-            return PartialView(teacherInputTags);
+            return PartialView(_contentFactory.GetTeacherInputTags());
         }
 
         [CheckStudentCount]
